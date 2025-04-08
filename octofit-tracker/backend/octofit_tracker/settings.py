@@ -26,6 +26,8 @@ SECRET_KEY = "django-insecure-6dd-lh()qth0$dp(6yqu_736yo0k-te#mj^0#^+3p$#h49%99m
 DEBUG = True
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+ALLOWED_HOSTS += ['glowing-space-goggles-pw7p99jrg926qvx-8000.app.github.dev', 'localhost']
+ALLOWED_HOSTS += ['0.0.0.0']
 
 
 # Application definition
